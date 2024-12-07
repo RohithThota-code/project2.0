@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--background-primary);
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-link {
+    color: var(--color-link);
+    font-family: "Grenze", serif;
+    font-size: 1.5em; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-small);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: var(--background-muted);
+    color: var(--color-primary);
+}
